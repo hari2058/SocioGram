@@ -1,4 +1,4 @@
-// validation/registerSchema.js
+
 import { z } from "zod";
 
 export const RegisterSchema = z
