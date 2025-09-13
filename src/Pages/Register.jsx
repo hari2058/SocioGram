@@ -2,8 +2,9 @@ import { Link, useNavigate } from "react-router-dom";
 import { Button } from "../Components/Button";
 import { ErrorMessage, Form, Formik } from "formik";
 import { toFormikValidationSchema } from "zod-formik-adapter";
-import { RegisterSchema } from "../validation/RegisterSchema";
 import { useState } from "react";
+import { RegisterSchema } from "../validation/registerSchema";
+
 
 export const Register = () => {
   const [completedMsg, setCompletedMsg] = useState("");
