@@ -59,7 +59,7 @@ export const Setting = () => {
         </section>
 
         <div className="flex justify-center">
-          <button className="bg-blue-500 text-white px-6 py-3 rounded-xl hover:bg-blue-600">
+          <button className="bg-[rgb(123,154,145)] text-white px-6 py-3 rounded-xl hover:bg-[rgb(167,193,168)]">
             Save Changes
           </button>
         </div>

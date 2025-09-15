@@ -81,7 +81,7 @@ export const Home = () => {
                 className={`px-3 py-1 rounded-lg text-white ${
                   likedPosts.includes(post.id)
                     ? "bg-gray-400 cursor-not-allowed"
-                    : "bg-blue-500 hover:bg-blue-600"
+                    : "bg-[rgb(123,154,145)] hover:bg-blue-600"
                 }`}
               >
                  Like ({post.likes || 0})

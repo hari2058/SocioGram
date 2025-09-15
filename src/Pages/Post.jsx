@@ -57,7 +57,7 @@ export const Post = () => {
             className="p-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 resize-none"
           />
 
-          <label className="cursor-pointer bg-blue-500 text-white rounded-xl p-3 text-center hover:bg-blue-600">
+          <label className="cursor-pointer bg-[rgb(123,154,145)] text-white rounded-xl p-3 text-center hover:bg-[rgb(167,193,168)]">
             Upload Image
             <input type="file" accept="image/*" onChange={handleImageChange} className="hidden" />
           </label>
